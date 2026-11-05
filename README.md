@@ -2,7 +2,7 @@
 
 可交互的 Three.js 城堡：自由绕行、四足行走、结构拆解、四色魔法门与五处目的地，以及全屏沉浸与自动导览。
 
-**[打开在线体验](https://bellisji233.github.io/howl-moving-castle/)**
+浏览地址（待启用 Pages）：`https://bellisji233.github.io/howl-moving-castle/`
 
 左下四色黄铜圆盘可直接选景，中央返回工坊；屏幕指针与实体门锁同步。支持鼠标、键盘和移动屏幕，遵循系统减少动态效果设置。
 
