@@ -1,0 +1,15 @@
+{
+  "date": "2026-11-03",
+  "userReferences": [
+    {"id": "R1", "purpose": "侧面层次、旧金属与暖炉房", "file": "codex-clipboard-7a76bfba-56d7-4dd8-80c9-f0f5063781a1.png"},
+    {"id": "R2", "purpose": "正面轮廓、机械脸、鸟足", "file": "codex-clipboard-78609c31-334e-4cd6-943f-709e7f24e50d.png"},
+    {"id": "R3", "purpose": "关节、烟囱、彩窗", "file": "codex-clipboard-b3390ac5-4b91-42ec-becd-1458a89cfb99.png"},
+    {"id": "R4", "purpose": "远期魔法门专题", "file": "codex-clipboard-f4ba9714-5992-4e9e-a23b-e27e4d6c40ae.png"}
+  ],
+  "external": [
+    {"url": "https://www.mattgyver.com/tutorials/2021/3/1/howls-moving-castle-animated", "use": "分层与细节组织方法，未复用素材"},
+    {"url": "https://www.ghibli.jp/works/howl/", "use": "原作信息与官方视觉入口，未内嵌截图"},
+    {"url": "https://yuguhtrrh.artstation.com/projects/GaQJKa", "use": "制作复杂度说明，未获得或复用模型"},
+    {"url": "https://github.com/elvarofficial/teardown", "use": "分件、统一状态和检查方法"}
+  ]
+}

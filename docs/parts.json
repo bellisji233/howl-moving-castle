@@ -1,0 +1,425 @@
+{
+  "units": "design units, not measured engineering dimensions",
+  "parts": [
+    {
+      "id": "CORE",
+      "name": "铆接承重机身",
+      "english": "Riveted hull",
+      "category": "主体结构",
+      "description": "如同被改造成建筑的船腹。分片装甲、环形接缝与承重梁，将上方的小屋和下方四足连接起来。",
+      "basis": "外形参考 · 结构推演",
+      "explode": [
+        0,
+        0,
+        0
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "FACE",
+      "name": "机械脸与入口",
+      "english": "The mechanical face",
+      "category": "主体结构",
+      "description": "炮口般的双眼、钝圆额头与张开的下颌，共同构成城堡的脸。舌形跳板通向黑暗的入口。",
+      "basis": "参考图中的可见外形",
+      "explode": [
+        0,
+        0.2,
+        3.8
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "HOUSE_A",
+      "name": "炉火小屋",
+      "english": "The hearth house",
+      "category": "拼接建筑",
+      "description": "嵌在左侧金属圆顶下的小屋。木框、旧石膏、深色屋瓦与炉火，为冰冷的机器留下生活的温度。",
+      "basis": "参考图中的可见外形",
+      "explode": [
+        -3.8,
+        1,
+        1
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "HOUSE_B",
+      "name": "歪斜的阁楼",
+      "english": "The crooked attic",
+      "category": "拼接建筑",
+      "description": "沿机身生长的半木构建筑，阁楼、侧窗与屋脊错落叠加，由可见的斜撑托住。",
+      "basis": "外形参考 · 布局统一",
+      "explode": [
+        3.8,
+        2,
+        0
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "HOUSE_REAR",
+      "name": "背面的起居楼",
+      "english": "The rear dwelling",
+      "category": "拼接建筑",
+      "description": "后屋与高处的木结构阁楼让背面也成为完整建筑。外廊、扶手与支架延续城堡的拼接逻辑。",
+      "basis": "多视角补全 · 创意推演",
+      "explode": [
+        0,
+        2,
+        -3.8
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "TURRETS",
+      "name": "圆顶与彩窗塔",
+      "english": "Domes & lantern tower",
+      "category": "拼接建筑",
+      "description": "大小不一的铜铁圆顶、铜绿塔帽与彩色玻璃，组成不对称的轮廓。细长的塔楼像是后来加建的房间。",
+      "basis": "外形参考 · 细节推演",
+      "explode": [
+        3,
+        3,
+        1
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "CHIMNEYS",
+      "name": "烟囱与天线",
+      "english": "Chimneys & rigging",
+      "category": "外部附件",
+      "description": "错位的长短烟囱、分节箍和张开的顶帽，打破整齐天际线。横梁与细索将它们连接为一体。",
+      "basis": "参考图中的可见外形",
+      "explode": [
+        0,
+        4.5,
+        -0.5
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "PIPES",
+      "name": "外露管线与鳍板",
+      "english": "Pipework & fins",
+      "category": "外部附件",
+      "description": "弯管贴着外壳转折，节箍与支架交代它们如何固定。两侧薄鳍延续了城堡像船、又像生物的形态。",
+      "basis": "外形参考 · 连接推演",
+      "explode": [
+        -3,
+        0.2,
+        -2
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "FL_LIMB",
+      "name": "前左机械鸟足",
+      "english": "Front · left limb",
+      "category": "四足机构",
+      "description": "由髋关节、两段金属连杆、活塞与三趾足构成。关节由双骨求解驱动，支撑段锁住世界坐标，抬脚段迈向下一落点。",
+      "basis": "外形参考 · 关节设计假设",
+      "explode": [
+        -3,
+        0.4,
+        2
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "FR_LIMB",
+      "name": "前右机械鸟足",
+      "english": "Front · right limb",
+      "category": "四足机构",
+      "description": "前侧鸟足通过独立关节节点挂载。成对活塞与关节端盖建立机械层次，足爪贴合观察台地面。",
+      "basis": "外形参考 · 关节设计假设",
+      "explode": [
+        3,
+        0.4,
+        2
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "BL_LIMB",
+      "name": "后左机械鸟足",
+      "english": "Rear · left limb",
+      "category": "四足机构",
+      "description": "后足支撑船腹后段，与前足保持独立分组，由独立相位驱动，和其他三足错开抬脚。",
+      "basis": "外形参考 · 关节设计假设",
+      "explode": [
+        -3,
+        0.4,
+        -2
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "BR_LIMB",
+      "name": "后右机械鸟足",
+      "english": "Rear · right limb",
+      "category": "四足机构",
+      "description": "背面的鸟足同样具有完整几何，而不是正面模型的投影。关节与支撑梁衔接机身底部。",
+      "basis": "外形参考 · 关节设计假设",
+      "explode": [
+        3,
+        0.4,
+        -2
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "DRIVE",
+      "name": "外露传动组件",
+      "english": "Imagined drivetrain",
+      "category": "推演机构",
+      "description": "黄铜齿轮、连杆与传动轴是帮助理解结构的原创机械推演，不代表电影官方机构，也不提供虚构的扭矩或压力数据。",
+      "basis": "创意机械推演 · 非官方结构",
+      "explode": [
+        3.8,
+        0,
+        -1
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    },
+    {
+      "id": "FIRE",
+      "name": "魔法炉心",
+      "english": "The imagined fire core",
+      "category": "推演机构",
+      "description": "机身内部的暖色炉心是对魔法动力的视觉解释。侧面的炉房通过导管连接到内置炉心，透视模式可以观察其与推演传动轴之间的关系。",
+      "basis": "创意解释 · 非真实动力模型",
+      "explode": [
+        -2,
+        0,
+        2
+      ],
+      "parent": "HOWL_CASTLE",
+      "initialPosition": [
+        0,
+        0,
+        0
+      ],
+      "initialRotation": [
+        0,
+        0,
+        0
+      ],
+      "initialScale": [
+        1,
+        1,
+        1
+      ],
+      "coordinateRule": "geometry is authored within each part root"
+    }
+  ]
+}
